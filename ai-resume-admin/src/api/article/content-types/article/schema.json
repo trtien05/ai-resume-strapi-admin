@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "UserResume",
+    "description": "Create your blog content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "resumeId": {
+      "type": "text"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    }
+  }
+}
